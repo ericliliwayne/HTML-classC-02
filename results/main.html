@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main區</title>
+    <style>
+        body{
+            display: flex;
+            box-sizing: border-box;
+            margin: 0;
+            justify-content: space-between;
+        }
+        section{
+            display: flex;
+            width: 280px;
+            height: 460px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 5px;
+            border: 1px solid #999999;
+            /* justify-content:flex-start; */
+        }
+        section>nav{
+            display: flex;
+            flex-wrap: nowrap;
+            /* justify-content:flex-start; */
+        }
+        .m0{
+            font-size: 16px;
+            text-align: left;
+            font-weight: bold;
+            width: 100%;
+            height:24px;
+            margin: 0 auto;
+        }
+        .m1{
+            width: 70%;
+            background-color: #3399ff;
+            font-size: 14px;
+            color: #ffffff;
+            text-align: center;
+            height: 2rem;
+            line-height: 250%;
+            margin: 0 auto;
+        }
+        .m3{
+            width: 30%;
+            background-color: #3399ff;
+            font-size: 14px;
+            color: #ffffff;
+            text-align: center;
+            height: 2rem;
+            line-height: 250%;
+            margin: 0 auto;
+        }
+        .m2{
+            width: 70%;
+            background-color: #ffffcc;
+            font-size: 12px;
+            color: #000000;
+            text-align: left;
+            height: 24px;
+            line-height: 210%;
+            /* border: 1px solid black; */
+            margin: 0 auto;
+        }
+        .m4{
+            width: 30%;
+            background-color: #ffffcc;
+            font-size: 12px;
+            color: #000000;
+            text-align: center;
+            line-height: 210%;
+            height: 24px;
+            margin: 0 auto;
+        }
+        .m5{
+            width: 70%;
+            background-color: #dddddd;
+            font-size: 12px;
+            color: #000000;
+            text-align: left;
+            line-height: 210%;
+            height: 24px;
+            margin: 0 auto;
+        }
+        .m6{
+            width: 30%;
+            background-color: #dddddd;
+            font-size: 12px;
+            color: #000000;
+            text-align: center;
+            line-height: 210%;
+            height: 24px;
+            margin: 0 auto;
+        }
+        .right{
+            width: 590px;
+            height: 460px;
+            background-color: #333333;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 6px;
+            justify-content: space-between;
+        }
+        .p0{
+            width: 100%;
+            height: 78%;
+            background-color: aliceblue;
+            text-align: center;
+            /* margin-bottom: 1px; */
+        }
+        .p1{
+            width: 20%;
+            height: 100px;
+            /* background-color: aqua; */
+            margin-top: 5px;
+        }
+        .p0>img{
+            width:590px;
+            height: 358.8px;
+        }
+        .p1>img{
+            width:100%;
+            
+        }
+        .p1>p{
+            font-size: 14px;
+            color: #ffff00;
+            text-align: center;
+            margin: 0;
+        }
+        iframe{
+            width: 100%;
+            height: 100%;
+            
+        }
+        /* img{
+            max-width: 100%;
+            max-height: 100%;
+        } */
+        
+    </style>
+</head>
+<body>
+    <section>
+        <nav class="m0">最新消息</nav>
+        <nav>
+            <div class="m1">主題</div>
+            <div class="m3">發布日期</div>
+        </nav>
+        <nav>
+            <div class="m2"><img src="../images/0201.png" alt="">公告全國競賽相關事宜</div>
+            <div class="m4">104/06/28</div>
+        </nav>
+        <nav>
+            <div class="m5"><img src="../images/0201.png" alt="">公告即測即評即發證相關事宜</div>
+            <div class="m6">104/06/28</div>
+        </nav>
+        <nav>
+            <div class="m2"><img src="../images/0201.png" alt="">公告網頁設計修題相關事宜</div>
+            <div class="m4">104/06/28</div>
+        </nav>
+        <nav>
+            <div class="m5"><img src="../images/0201.png" alt="">公告網路架設應檢相關事宜</div>
+            <div class="m6">104/06/28</div>
+        </nav>
+        
+        
+        
+        
+    </section>
+    <div class="right">
+        <nav class="p0">
+            <img src="../images/0202A.png" alt="第30屆倫敦奧運">
+        </nav>
+        <nav class="p1">
+            <img src="../images/0202B.png" alt="第30屆倫敦奧運">
+            <p>第30屆倫敦奧運</p>
+        </nav>
+        <nav class="p1">
+            <a href="../images/0203A.png" target="iframe"><img src="../images/0203B.png" alt="許淑淨奪舉重銀牌"></a>
+            <p>許淑淨奪舉重銀牌</p>
+        </nav>
+        <nav class="p1">
+            <a href="../images/0204A.png" target="iframe"><img src="../images/0204B.png" alt="第26屆深圳世大運"></a>
+            <p>第26屆深圳世大運</p>
+        </nav>
+        <nav class="p1">
+            <a href="../images/0205A.png" target="iframe"><img src="../images/0205B.png" alt="第27屆喀山世大運"></a>
+            <p>第27屆喀山世大運</p>
+        </nav>
+    </div>
+</body>
+</html>
